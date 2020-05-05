@@ -8,13 +8,9 @@ This visualization was built by modifying [choropleth example code by Scott Murr
 <meta charset="utf-8">
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <style type="text/css">
-
-/* On mouse hover, lighten state color */
 path:hover {
 	fill-opacity: .7;
 }
-
-/* Style for Custom Tooltip */
 div.tooltip {
  	position: absolute;
 	text-align: center;
@@ -28,12 +24,11 @@ div.tooltip {
 	/* pointer-events: none; */
 }
 
-/* Legend Font Style */
+
 body {
 	font: 11px sans-serif;
 }
 
-/* Legend Position Style */
 .legend {
 	position:absolute;
 	left:800px;
@@ -45,18 +40,6 @@ body {
 <body>
 	<h1>US States & Agricultural Certifications</h1>
 <script type="text/javascript">
-
-/*  This visualization was made possible by modifying code provided by:
-
-Scott Murray, Choropleth example from "Interactive Data Visualization for the Web"
-https://github.com/alignedleft/d3-book/blob/master/chapter_12/05_choropleth.html
-
-Malcolm Maclean, tooltips example tutorial
-http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
-
-Mike Bostock, Pie Chart Legend
-http://bl.ocks.org/mbostock/3888852  */
-
 
 //Width and height of map
 var width = 960;
