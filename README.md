@@ -4,7 +4,6 @@ This visualization was built by modifying [choropleth example code by Scott Murr
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>US States & Agricultural Certifications</title>
 <meta charset="utf-8">
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <style type="text/css">
