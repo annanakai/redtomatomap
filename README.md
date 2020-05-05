@@ -38,7 +38,6 @@ body {
 </style>
 </head>
 <body>
-	<h1>US States & Agricultural Certifications</h1>
 <script type="text/javascript">
 
 //Width and height of map
